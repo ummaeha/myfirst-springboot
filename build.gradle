@@ -30,4 +30,5 @@ repositories {
 dependencies { // 프로젝트 의존성 선언
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+    implementation('org.projectlombok:lombok')
 }
